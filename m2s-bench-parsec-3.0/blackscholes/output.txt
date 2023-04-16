@@ -1,7 +1,7 @@
 
 ; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
 ; Please use command 'm2s --help' for a list of command-line options.
-; Simulation alpha-numeric ID: NCc2M
+; Simulation alpha-numeric ID: CrMRb
 
 PARSEC Benchmark Suite Version 3.0-beta-20150206
 PARSEC Benchmark Suite Version 3.0-beta-20150206
@@ -11,20 +11,20 @@ PARSEC Benchmark Suite Version 3.0-beta-20150206
 ;
 
 [ General ]
-RealTime = 15.88 [s]
+RealTime = 15.97 [s]
 SimEnd = MaxTime
 SimTime = 131122.00 [ns]
 Frequency = 1000 [MHz]
 Cycles = 131123
 
 [ x86 ]
-RealTime = 15.84 [s]
+RealTime = 15.94 [s]
 Instructions = 236277
-InstructionsPerSecond = 14913
+InstructionsPerSecond = 14826
 SimTime = 131123.00 [ns]
 Frequency = 1000 [MHz]
 Cycles = 131123
-CyclesPerSecond = 8276
+CyclesPerSecond = 8227
 FastForwardInstructions = 0
 CommittedInstructions = 106377
 CommittedInstructionsPerCycle = 0.8113
