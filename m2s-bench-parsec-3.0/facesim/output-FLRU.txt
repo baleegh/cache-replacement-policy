@@ -1,0 +1,23 @@
+
+; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: cCtmO
+
+PARSEC Benchmark Suite
+PARSEC Benchmark Suite
+Simulation                                        Simulation                                        Can't open Can't open ./Face_Data/Eftychis_840k/Front_370k/face_simulation.tet./Face_Data/Eftychis_840k/Front_370k/face_simulation.tet for read  for read (binary)(binary)
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 0.34 [s]
+SimEnd = ContextsFinished
+
+[ x86 ]
+RealTime = 0.32 [s]
+Instructions = 262712
+InstructionsPerSecond = 823536
+

@@ -1,0 +1,49 @@
+
+; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: jFijh
+
+PARSEC Benchmark Suite
+PARSEC Benchmark Suite
+PARSEC Benchmark Suite
+Threadcount: 0
+Threadcount: 0
+Threadcount: 0
+10000 swaps per temperature step
+15000 swaps per temperature step
+15000 swaps per temperature step
+start temperature: 2000
+start temperature: 2000
+start temperature: 2000
+netlist filename: 100000.nets
+netlist filename: 200000.nets
+netlist filename: 400000.nets
+number of temperature steps: 32
+number of temperature steps: 64
+number of temperature steps: 128
+locs created
+locs created
+locs created
+locs assigned
+locs assigned
+locs assigned
+Just saw element: 100000
+Just saw element: 100000
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 200000
+Just saw element: 200000
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 2140.63 [s]
+SimEnd = MaxTime
+
+[ x86 ]
+RealTime = 2140.62 [s]
+Instructions = 734920704
+InstructionsPerSecond = 343321
+

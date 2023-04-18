@@ -1,27 +1,23 @@
 
 ; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
 ; Please use command 'm2s --help' for a list of command-line options.
-; Simulation alpha-numeric ID: HzTR9
+; Simulation alpha-numeric ID: vSa2Y
 
+[Encode] stat() media.dat failed: No such file or directory
+[Encode] stat() media.dat failed: No such file or directory
 PARSEC Benchmark Suite Version 3.0-beta-20150206
 PARSEC Benchmark Suite Version 3.0-beta-20150206
-Num of Options: 4096
-Num of Runs: 100
-Size of data: 163840
-Num of Options: 16384
-Num of Runs: 100
-Size of data: 655360
 
 ;
 ; Simulation Statistics Summary
 ;
 
 [ General ]
-RealTime = 307.82 [s]
+RealTime = 10.49 [s]
 SimEnd = ContextsFinished
 
 [ x86 ]
-RealTime = 307.81 [s]
-Instructions = 271075900
-InstructionsPerSecond = 880663
+RealTime = 10.48 [s]
+Instructions = 15293112
+InstructionsPerSecond = 1458571
 

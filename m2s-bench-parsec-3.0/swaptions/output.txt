@@ -1,0 +1,28 @@
+
+; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: URflZ
+
+PARSEC Benchmark Suite
+PARSEC Benchmark Suite
+PARSEC Benchmark Suite
+Number of threads must be between 1 and 1024.
+Number of threads must be between 1 and 1024.
+Number of threads must be between 1 and 1024.
+Number of Simulations: 10000,  Number of threads: 0 Number of swaptions: 16
+Number of Simulations: 20000,  Number of threads: 0 Number of swaptions: 32
+Number of Simulations: 40000,  Number of threads: 0 Number of swaptions: 64
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 0.19 [s]
+SimEnd = ContextsFinished
+
+[ x86 ]
+RealTime = 0.18 [s]
+Instructions = 157707
+InstructionsPerSecond = 880356
+

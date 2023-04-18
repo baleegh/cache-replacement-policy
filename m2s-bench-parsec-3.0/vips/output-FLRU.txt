@@ -1,0 +1,22 @@
+
+; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: Rxfsc
+
+format_for_file: file "bigben_2662x5500.v" not found
+format_for_file: file "pomegranate_1600x1200.v" not found
+format_for_file: file "vulture_2336x2336.v" not found
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.80 [s]
+SimEnd = ContextsFinished
+
+[ x86 ]
+RealTime = 1.80 [s]
+Instructions = 1952242
+InstructionsPerSecond = 1087572
+

@@ -1,0 +1,82 @@
+
+; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: jhRTK
+
+this =0x86c2140
+this =0x86c2140
+this =0x86c2140
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+initializing LRT ray tracer ...
+initializing LRT ray tracer ...
+initializing LRT ray tracer ...
+default BVH builder : binnedalldimssavespace
+default BVH builder : binnedalldimssavespace
+default BVH builder : binnedalldimssavespace
+File happy_buddha.obj does not exist.
+Options: 
+File happy_buddha.obj does not exist.
+Options: 
+File happy_buddha.obj does not exist.
+Options: 
+Using memory framebuffer...
+Using memory framebuffer...
+Using memory framebuffer...
+num nodes in scene graph 1
+num nodes in scene graph 1
+num nodes in scene graph 1
+adding 8 vertices
+adding 8 vertices
+adding 8 vertices
+adding 12 triangles
+adding 12 triangles
+adding 12 triangles
+finalizing geometry
+finalizing geometry
+finalizing geometry
+vertices            8 (0.09375 KB)
+vertices            8 (0.09375 KB)
+vertices            8 (0.09375 KB)
+triangles           12 (0.140625 KB)
+triangles           12 (0.140625 KB)
+triangles           12 (0.140625 KB)
+texture coordinates 0 (0 KB)
+texture coordinates 0 (0 KB)
+texture coordinates 0 (0 KB)
+No materials -> create dummy material
+No materials -> create dummy material
+No materials -> create dummy material
+building index
+building index
+building index
+using BVH builder default
+using BVH builder default
+using BVH builder default
+build time 0.071933
+build time 0.071915
+build time 0.071915
+done
+done
+done
+sceneAABB =[[[-1,-1,-1,0] ],[[1,1,1,0] ]]
+sceneAABB =[[[-1,-1,-1,0] ],[[1,1,1,0] ]]
+sceneAABB =[[[-1,-1,-1,0] ],[[1,1,1,0] ]]
+Rendering 1 frames... 
+Rendering 1 frames... 
+Rendering 1 frames... 
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 4153.06 [s]
+SimEnd = MaxTime
+
+[ x86 ]
+RealTime = 4153.05 [s]
+Instructions = 9830400
+InstructionsPerSecond = 2367
+

@@ -1,0 +1,43 @@
+
+; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: Ihc7F
+
+PARSEC Benchmark Suite
+PARSEC Benchmark Suite
+Creating directory using system("Creating directory using system("mkdir -p Storytelling/outputmkdir -p Storytelling/output")...")...
+Warning: execve(): Child context executed natively.
+
+        A system call 'execve' is trying to run a command prefixed with '/bin/sh
+        -c'. This is usually the result of the execution of the 'system()'
+        function from the guest application to run a shell command. Multi2Sim
+        will execute this command natively, and will then terminate the calling
+        context.
+
+
+Warning: execve(): Child context executed natively.
+
+        A system call 'execve' is trying to run a command prefixed with '/bin/sh
+        -c'. This is usually the result of the execution of the 'system()'
+        function from the guest application to run a shell command. Multi2Sim
+        will execute this command natively, and will then terminate the calling
+        context.
+
+Successful!Successful!
+
+Simulation                                        Simulation                                        Can't open Can't open ./Face_Data/Eftychis_840k/Front_370k/face_simulation.tet./Face_Data/Eftychis_840k/Front_370k/face_simulation.tet for read  for read (binary)(binary)
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 0.41 [s]
+SimEnd = ContextsFinished
+
+[ x86 ]
+RealTime = 0.40 [s]
+Instructions = 281292
+InstructionsPerSecond = 710310
+
