@@ -9,7 +9,7 @@ Multi2sim is a simulator of CPUs and GPUs, used to test and validate new hardwar
 ### 3. Clone cache-replacement-policies.
 The repository consists of code to implement FLRU and benchmarks for testing the performance.
 
-`git clone https://github.com/akhil1608/cache-replacement-policy.git`
+`git clone https://github.com/baleegh/cache-replacement-policy.git`
 ### 4. Run setup script.
 The setup script modifies few files to test out the FLRU implementation and builds (installs) the multi2sim simulator.
 
