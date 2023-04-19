@@ -60,19 +60,29 @@ CommittedMicroInstructionsPerCycle = 2.977
 BranchPredictionAccuracy = 0.8754
 ```
 
-### 2. Running multi2sim using LRU policy
+### 2. Running multi2sim on all benchmarks
 `cd ..`
+
 You are now in `cache-replacement-policy/m2s-bench-parsec-3.0/`
-Run the experiments. Outputs will be in `cache-replacement-policy/m2s-bench-parsec-3.0/<benchmark>/output.txt`
+
+Run the experiments using LRU (default). Outputs will be in `cache-replacement-policy/m2s-bench-parsec-3.0/<benchmark>/output.txt`
+
 `./runs.sh`
 
 Modify source code to run FLRU
+
 `cd ../../multi2sim/src/memory/`
+
 Change line 33 in `Cache.cc` to `{ "LRU", ReplacementFLRU },`
+
 `make clean`
+
 `cd ../`
+
 `make`
 
 Run the experiments. Outputs will be in `cache-replacement-policy/m2s-bench-parsec-3.0/<benchmark>/output-FLRU.txt`
+
 `cd ../../cache-replacement-policy/m2s-bench-parsec-3.0/`
+
 `./runs-FLRU.sh`
