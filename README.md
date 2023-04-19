@@ -1,5 +1,5 @@
 # Cache Replacement Policy
-## Setting Up multi2sim (Linux)
+## A. Setting Up multi2sim
 ### 1. Open terminal and navigate to the folder where you want to set it up.
 We will call this folder 'root'.
 ### 2. Clone multi2sim.
@@ -15,12 +15,16 @@ The setup script modifies few files to test out the FLRU implementation and buil
 
 `./cache-replacement-policy/setup.sh`
 > Incase of a permission denied error, run `chmod 777 cache-replacement-policy/setup.sh` first then try again.
-## Testing replacement policies with PARSEC benchmarks
+## B. Testing replacement policies with PARSEC benchmarks
 ### 1. Navigate to the benchmark folder.
+Assuming you are in the 'root' folder, to the benchmark folder of your choice.
+
+`cd cache-replacement-policy/m2s-bench-parsec-3.0/<benchmark>`
+
 We will proceed with **vips** as an example.
 
 `cd cache-replacement-policy/m2s-bench-parsec-3.0/vips`
-### 2. Test the multi2sim binary on the benchmark.
+### 2. Test the multi2sim binary on a single benchmark.
 You can play around with configurations specified in files `mem-config`, `x86-config` and `benchmark.ini` files or use the default settings. `--max-time` is an optional parameter but useful if testing for small number of instructions.
 
 `../../../multi2sim/bin/m2s --x86-sim detailed --mem-config mem-config --x86-config x86-config --max-time 60 --ctx-config benchmark.ini`
@@ -60,29 +64,31 @@ CommittedMicroInstructionsPerCycle = 2.977
 BranchPredictionAccuracy = 0.8754
 ```
 
-### 2. Running multi2sim on all benchmarks
-`cd ..`
+### 3. Running multi2sim on all benchmarks.
+Assuming you are in the 'root' folder navigate to the `m2s-bench-parsec-3.0` folder.
 
-You are now in `cache-replacement-policy/m2s-bench-parsec-3.0/`
+`cd cache-replacement-policy/m2s-bench-parsec-3.0/`
 
-Run the experiments using LRU (default). Outputs will be in `cache-replacement-policy/m2s-bench-parsec-3.0/<benchmark>/output.txt`
+Run the experiments using LRU (default).
 
 `./runs.sh`
 
-Modify source code to run FLRU
+Outputs will be stored in `cache-replacement-policy/m2s-bench-parsec-3.0/<benchmark>/output.txt`
+
+For FLRU baseline, modify source code to run FLRU:
 
 `cd ../../multi2sim/src/memory/`
 
-Change line 33 in `Cache.cc` to `{ "LRU", ReplacementFLRU },`
+Change line 33 in `Cache.cc` to `{ "LRU", ReplacementFLRU }`, then
 
-`make clean`
+```
+make clean
+cd ../
+make
+```
 
-`cd ../`
-
-`make`
-
-Run the experiments. Outputs will be in `cache-replacement-policy/m2s-bench-parsec-3.0/<benchmark>/output-FLRU.txt`
-
-`cd ../../cache-replacement-policy/m2s-bench-parsec-3.0/`
+Navigate back to the `m2s-bench-parsec-3.0` folder and run the experiments again for FLRU. 
 
 `./runs-FLRU.sh`
+
+Outputs will be stored in `cache-replacement-policy/m2s-bench-parsec-3.0/<benchmark>/output-FLRU.txt`
