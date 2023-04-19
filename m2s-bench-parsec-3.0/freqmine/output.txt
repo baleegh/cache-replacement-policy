@@ -1,8 +1,1 @@
-
-; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
-; Please use command 'm2s --help' for a list of command-line options.
-; Simulation alpha-numeric ID: OWxjW
-
-
-Error: x86-config: Cannot read from file
-
+./runs.sh: line 41: ../../../m2s: No such file or directory

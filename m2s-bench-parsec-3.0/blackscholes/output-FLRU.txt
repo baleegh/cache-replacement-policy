@@ -1,27 +1,7 @@
 
 ; Multi2Sim 5.0 - A Simulation Framework for CPU-GPU Heterogeneous Computing
 ; Please use command 'm2s --help' for a list of command-line options.
-; Simulation alpha-numeric ID: hLolP
+; Simulation alpha-numeric ID: 5MvFb
 
 PARSEC Benchmark Suite Version 3.0-beta-20150206
 PARSEC Benchmark Suite Version 3.0-beta-20150206
-Num of Options: 4096
-Num of Runs: 100
-Size of data: 163840
-Num of Options: 16384
-Num of Runs: 100
-Size of data: 655360
-
-;
-; Simulation Statistics Summary
-;
-
-[ General ]
-RealTime = 324.67 [s]
-SimEnd = ContextsFinished
-
-[ x86 ]
-RealTime = 324.67 [s]
-Instructions = 271075900
-InstructionsPerSecond = 834940
-
